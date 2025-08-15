@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <title>
+            PROFILE
+        </title>
+        <style>
+        *{
+            margin: 0px;
+            padding:0px;
+
+        }
+            .h1{
+                color: white;
+            }
+            nav{
+               word-spacing: 20px; 
+            }
+            a{
+              text-decoration: none;
+              color: white
+            }
+            .home{
+                background-color: dimgray;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+            }
+            .para{
+                background-image: url('https://t4.ftcdn.net/jpg/02/94/29/33/360_F_294293388_rMi36DO4isvXoNh8B3Q5G07X0bL9z1Ng.jpg');
+                background-size: cover;
+                height: 400px;
+                display: flex;
+                 flex-direction: column; 
+                 justify-content: center;
+                color: white;
+                padding: 20px;
+            }
+            button {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+     #about{
+        margin-top: 50px;
+        padding-left: 50px;
+     }
+     .about-container{
+        display: flex;
+        align-items: flex-start;
+     }
+     .about-container p {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-about{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.hire{
+    font-size: 30px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+    color: black;
+}
+.skill-img{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.name{
+   margin-top: 50px;
+    padding-left: 50px;
+}
+.skillforall{
+    display: flex;
+    flex-direction: column;
+     max-width: 600px;
+}
+.all{
+    display: flex;
+    align-items: flex-start;
+}
+.skilln{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 75px;
+    color:antiquewhite
+}
+.all{
+     margin-top: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+#skill{
+    background-color: black;
+}
+.progress-bar {
+        height: 100%;
+        text-align: right;
+        padding-right: 5px;
+        color: white;
+        line-height: 20px;
+        border-radius: 20px;
+        animation: fill 2s ease-in-out forwards;
+    }
+    .progress {
+        background: #ddd;
+        border-radius: 20px;
+        width: 500%;
+        height: 20px;
+    }
+     @keyframes fill {
+        from { width: 0; }
+    }
+    .services{
+        padding-left: 30px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .text-seri{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+
+    }
+      .work{
+        margin-top: 30px;
+        padding-left: 30px;
+        background-color: black;
+        display:flex;
+      }
+      .text-work{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .contact{
+        margin-top: 100px;
+        background-color: black;
+      }
+      .git{
+        color:white;
+        text-align: center;
+        
+      }
+        </style>
+    </head>
+    <body>
+        <section id="home">
+        <div class="home">
+            <h1 class="h1">Welcome To My Protfolio</h1>
+        <nav>
+            <a href="#home">HOME  </a>
+            <a href="#about">ABOUTME  </a>
+            <a href="#skill">SKILL  </a>
+            <a href="#service">SERVICE  </a>
+            <a href="#works">WORKS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        </div>
+       
+        <div class="para" >
+            <h1 style="padding-bottom: 20px;">DHIVYA V</h1>
+            <p style="padding-bottom: 20px;"> Hi, Iam a 3rd-year B.Tech IT student & passionate web developer.<br>I create responsive, modern websites that deliver great user experiences.
+            </p>
+            <div class="foot">
+            <button id="hire" onclick="color()">Hire Me</button>
+         <script>
+         var hire=document.getElementById("hire");
+            function color(){
+                 hire.style.color="blue";
+            }
+         </script>
+
+         </div>
+        </div>
+           </section>
+         <section class="me"id="about">
+            <div class="about-container">
+            <img src="https://img.freepik.com/free-photo/young-woman-working-laptop-isolated-white-background_231208-1838.jpg">
+            <div class="text-about">
+            <h1 style="padding: 20px;">ABOUT ME</h1>
+            <p style="text-align: center;">I am Dhivya V, a passionate and dedicated 3rd-year Computer Science student with a keen interest in full-stack web development.
+From the very beginning of my academic journey, I have been fascinated by how technology can solve real-world problems.
+Over time, I have developed strong technical skills and a solid understanding of both front-end and back-end development.
+I specialize in the MERN stack — MongoDB, Express.js, React, and Node.js — to build dynamic and responsive web applications.
+I am also well-versed in HTML, CSS, and JavaScript, enabling me to create visually appealing and user-friendly interfaces.
+My ability to combine clean design with efficient functionality is one of my strongest assets.
+I have built projects that showcase my technical capabilities and problem-solving mindset.
+One of my notable projects is a Life Tracker Website, designed to help users monitor and organize their daily activities effectively.
+Another project I’m proud of is a Budget Tracker App, which enables users to track expenses, set financial goals, and manage budgets with ease.
+These projects have helped me gain hands-on experience with state management, API integration, and responsive UI design.</p>
+</div>
+</div>
+<div class="but">
+    
+    <button onclick="download()">Download CV</button>
+</div>
+</section>
+<section id="skill">
+    <div class="all">
+        <img src="https://media.istockphoto.com/id/1388635225/photo/businessman-click-on-skills.jpg?s=612x612&w=0&k=20&c=lsCABr8nyaj9E2gFnAuo5V0V_JnGz4d43IZVheP7eoo=">
+<div class="forallskill">
+    <div class="skilln">
+        <h1>SKILLS</h1>
+    </div>
+    <div class="name">
+        <h3 style="color:antiquewhite">HTML</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 90%; background: orangered;">90%</div>
+    </div>
+</div>
+ <div class="name">
+        <h3 style="color:antiquewhite">CSS</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 70%; background: blue;">70%</div>
+    </div>
+</div>
+ <div class="name">
+        <h3 style="color:antiquewhite">JAVASCRIPT</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 95%; background-color: orange;">95%</div>
+    </div>
+</div>
+ <div class="name">
+        <h3 style="color:antiquewhite">REACT</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 85%; background-color: rebeccapurple;">85%</div>
+    </div>
+</div>
+ <div class="name">
+        <h3 style="color:antiquewhite">JAVA</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 80%; background-color: plum;">80%</div>
+    </div>
+</div>
+ <div class="name">
+        <h3 style="color:antiquewhite">SOFT SKILLS</h3>
+    <div class="progress">
+    <div class="progress-bar" style="width: 90%; background-color: aqua;">90%</div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<section id="service">
+    <div class="services">
+        <img src="https://img.freepik.com/free-photo/high-angle-desk-assortment-with-laptop_23-2149013922.jpg?semt=ais_hybrid&w=740&q=80">
+<div class="text-seri">
+    <h1>SERVICES</h1>
+   <p style="margin-top: 30px; font-size: 20px;">
+   I offer a complete range of web development services, from designing modern,
+    responsive, and user-friendly websites using HTML, CSS, and JavaScript to developing full-stack solutions with React for dynamic frontends and Node.js with Express for secure,
+     high-performance backends, seamlessly integrated with MongoDB databases. My expertise includes crafting clean, intuitive UI/UX designs that enhance user engagement, building scalable applications with secure authentication, API integration, and performance
+      optimization for speed, SEO, and efficiency. I provide custom web application development tailored to specific business needs, e-commerce solutions with payment gateway integration, CMS setup for easy content management, and landing page development for marketing campaigns. I also specialize in responsive design,
+       cross-browser compatibility, website migration, and upgrades, as well as rigorous testing and quality assurance to ensure flawless performance. Beyond development, I offer deployment and hosting setup, code refactoring for better maintainability, integration of third-party tools like analytics and email automation,
+        and implementation of version control
+        (Git/GitHub) for collaborative workflows. I also provide API documentation, security enhancements against vulnerabilities, regular backups,
+    and ongoing maintenance to keep websites secure, updated, and fully functional at all times.
+    </p>
+    </div>
+    </div>
+    </section>
+    <section id="works">
+    <div class="work">
+         <img src="https://img.freepik.com/free-photo/hands-typing-keyboard-top-view_23-2149762478.jpg?semt=ais_hybrid&w=740&q=80">
+         <div class="text-work" style="color:white">
+            <h1 style="padding-left: 75px; margin-top: 30px; margin-bottom: 10px;">WORKS</h1>
+            <h2 style="font-weight: bold ; padding-left: 30px; margin-bottom: 10px; transition:ease-in-out;">Advanced Financial Insights and Budget Control Dashboard</h2>
+<p style="padding-left: 30px; margin-bottom: 30px;">A financial management platform that helps users track income, expenses, and savings effectively.
+Built with HTML, CSS, and JavaScript for the frontend, and powered by Spring Boot for a secure, 
+scalable backend. Features include dynamic expense tracking, budget analytics,
+ and real-time data updates.</p>
+ <h2 style="font-weight: bold ; padding-left: 30px; margin-bottom: 10px; transition:ease-in-out;">Smart Trip Organizer and Personalized Travel Experience System</h2>
+ <p style="padding-left: 30px; margin-bottom: 30px;">A modern web application for exploring destinations, planning trips, and
+     organizing travel details. Developed with React.js for the interactive frontend and Node.js with Express for the backend,
+      integrated with MongoDB for efficient data storage.
+     Optimized for speed, mobile responsiveness, and seamless user experience.</p>
+      <h2 style="font-weight: bold ; padding-left: 30px; margin-bottom: 10px; transition:ease-in-out;">Life Workflow Organizer</h2>
+       <p style="padding-left: 30px; margin-bottom: 30px;">
+         It allows you to record and monitor daily activities, maintain digital diary entries, set goals, and track progress over time. Built with HTML, CSS, and JavaScript, the application offers a
+         clean and intuitive interface, ensuring a smooth user experience. Whether it’s keeping a journal of your thoughts, logging important milestones, or planning future objectives, Life Tracker provides
+          a centralized hub for self-management. Its lightweight design ensures fast performance, making it an ideal companion for students, professionals, and anyone looking to balance productivity with personal well-being.</p>
+         </div>
+         </div>
+         </section>
+         <section id="contact">
+        <div class="contact">
+            <div class="contact-text">
+              <h1 style="color: white; text-align: center;">Contact Us</h1>
+              <h2 style="color:white; text-align: center; font-size: 20px;">+91 6383020361</h2>
+              <h2 style="color: white; font-size: 15px; padding-left: 500px;">Open to internship opportunities and collaborations to contribute to impactful projects.</h2>
+              <nav class="git">
+                <h3>LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/dhivya-v-9858ab292/" target="_blank" style="color: blue;">https://www.linkedin.com/in/dhivya-v-9858ab292/</a>
+              <h3>Github</h3>
+<a href="https://github.com/dhivyave" target="_blank" style="color: blue;">https://github.com/dhivyave</a>
+<h3>Email</h3>
+<a href="mailto:dhivyavenkat2005@gmail.com" style="color: blue;">dhivyavenkat2005@gmail.com</a>
+              </nav>
+            </div>
+        </div>
+         </section>
+          
+         <script>
+            function download(){
+                const link = document.createElement('a');
+    link.href = 'files/resume.pdf';
+    link.download = 'resume.pdf';   
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+            }
+         </script>
+         </body>
+         </html>
